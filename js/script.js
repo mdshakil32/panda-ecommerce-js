@@ -23,3 +23,20 @@ const btns = document.getElementsByClassName('buy-now-btn')
         })
       }
 
+//   send button disable and enable 
+document.getElementById('input-field').addEventListener('keyup',function(event){    
+    const inputField = event.target.value;
+
+      if(inputField.length > 0){
+      document.getElementById('button-addon2').removeAttribute('disabled');            
+      }
+      else{
+      document.getElementById('button-addon2').setAttribute('disabled','');            
+      }
+    });
+
+  document.getElementById('button-addon2').addEventListener('click',function(){
+    console.log('button clicked');
+  });
+
+
