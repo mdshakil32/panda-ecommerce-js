@@ -40,3 +40,10 @@ document.getElementById('input-field').addEventListener('keyup',function(event){
   });
 
 
+// cards image change using onmouseover onmouseout 
+function setNewImage(cardId,imageSrc){
+  document.getElementById(cardId).src=imageSrc;
+}
+function setOldImage(cardId,imageSrc){
+  document.getElementById(cardId).src=imageSrc;
+}
