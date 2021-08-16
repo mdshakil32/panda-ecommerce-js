@@ -13,3 +13,13 @@ const cards = document.getElementsByClassName('card');
 for(const card of cards){
   card.style.cssText="border-radius: 20px; border:none;";
 }
+
+// buy now button remove 
+const btns = document.getElementsByClassName('buy-now-btn')
+      for(const btn of btns){
+        btn.addEventListener('click',function(event){
+          console.log('this button removed');
+          event.target.style.display='none';
+        })
+      }
+
