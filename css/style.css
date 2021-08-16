@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+   
+}
+.inner-addon { 
+    position: relative; 
+    color: #BABABA;
+    font-style: italic;
+}
+.inner-addon .fa-search {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+.fa-search{
+    right: 10PX;
+    
+}
+.bg-pink-light{
+    background-color:#FEEAE9;
+}
+.grad-pink{
+    
+    background-image: linear-gradient(#ff89b6,#FF136F);
+}
+.grad-yellow{
+    
+    background-image: linear-gradient(#FF9C35,#FFD019);
+}
+.grad-blue{
+    
+    background-image: linear-gradient(#3F07F8,#85b1f7);
+}
+.color-pink{
+    color: #FF136F;
+    
+    
+}
