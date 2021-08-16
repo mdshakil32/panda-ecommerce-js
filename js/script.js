@@ -47,3 +47,17 @@ function setNewImage(cardId,imageSrc){
 function setOldImage(cardId,imageSrc){
   document.getElementById(cardId).src=imageSrc;
 }
+
+
+// double click background color change 
+const contactColor = document.getElementById('contact');
+
+    // double click to change different background color 
+      contactColor.ondblclick = function(){
+        contactColor.style.backgroundColor='PowderBlue';
+      }
+    // single click to get previous background color 
+      contactColor.onclick = function(){
+        contactColor.style.backgroundColor='#FEEAE9';
+      }
+      
